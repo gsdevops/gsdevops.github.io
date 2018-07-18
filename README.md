@@ -1,10 +1,6 @@
 
-# lala
-here
-
-
-
-# devopslets.github.io
+# gsdevops.github.io
+[https://gsdevops.github.io/](https://gsdevops.github.io/)
 
 ## Snippets:  
 * [bash snippets](docs/snippets/bash_snippets.md)  
