@@ -68,7 +68,14 @@ ssh  -L 1234:localhost:6667:server.example.com
 
 Fingerprint PEM files: 
 
-openssl rsa -in query.pem -pubout -outform DER | openssl md5 -c 
+```
+openssl rsa -in query.pem -pubout -outform DER | openssl md5 -c
+```
+
+shell locking to prevent concurrent execution:
+```shell 
+flock -n -c command
+```  
 
  
 
