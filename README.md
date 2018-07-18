@@ -6,7 +6,5 @@ here
 
 # devopslets.github.io
 
-
-[snippets](docs/snippets/)  
-
-[tcp_capture](docs/snippets/capturing_tcp_traffic.md)
+[bash snippets](docs/snippets/bash_snippets.md)
+[tcp capture](docs/snippets/capturing_tcp_traffic.md)
