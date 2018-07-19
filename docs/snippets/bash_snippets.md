@@ -23,6 +23,30 @@ date -d "2 days ago"
 $(date +"%Y-%m-%d--%H-%M") 
 ```
 
+# Bash remove color coding 
+
+`tail - file |  sed  -u 's/\x1B\[[0-9;]*[JKmsu]//g'` 
+
+#CURL + latency: 
+
+Create a new file, curl-format.txt, and paste in: 
+```
+    time_namelookup:  %{time_namelookup}\n 
+       time_connect:  %{time_connect}\n 
+    time_appconnect:  %{time_appconnect}\n 
+   time_pretransfer:  %{time_pretransfer}\n 
+      time_redirect:  %{time_redirect}\n 
+time_starttransfer:  %{time_starttransfer}\n 
+                    ----------\n 
+         time_total:  %{time_total}\n 
+``` 
+
+Make a request: 
+```
+curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
+```
+ 
+
 # Linux users 
 *creates home folder, shell is bash and user is ubuntu 
 ```shell useradd  -m -s /bin/bash -Gsudo,cdrom ubuntu```   
