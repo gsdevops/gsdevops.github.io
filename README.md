@@ -8,3 +8,9 @@
 * [sql DBs](docs/snippets/databases/rdbs.md) - sql databases  
 * [uniques](docs/snippets/uniques/uniques.md) - specialized examples  
 
+
+## Workstation
+
+* [Workstation](docs/workstation/devenv_setup.md) - workstation setup  
+
+ 
