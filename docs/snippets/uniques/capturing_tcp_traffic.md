@@ -1,6 +1,3 @@
-# gsdevops.github.io
-[https://gsdevops.github.io/](https://gsdevops.github.io/)
-
 ## Capturing TCP traffic
 
 
