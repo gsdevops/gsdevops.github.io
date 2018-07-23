@@ -121,6 +121,12 @@ Fingerprint PEM files:
 openssl rsa -in query.pem -pubout -outform DER | openssl md5 -c
 ```
 
+# crontab
+for other user
+```shell
+crontab -u ubuntu -l```
+
+# Multi processing:
 shell locking to prevent concurrent execution:
 ```shell 
 flock -n -c command
