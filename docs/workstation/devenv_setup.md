@@ -1,7 +1,3 @@
-
-# gsdevops.github.io
-[https://gsdevops.github.io/](https://gsdevops.github.io/)
-
 ## Set the workstation env
 
 
