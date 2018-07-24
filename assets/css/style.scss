@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper{
+    width: 50%
+}
+section {
+    width: 100%
+}
+nav{
+    width: 240px;
+    margin-left:unset;
+    left: 5%;
+}
