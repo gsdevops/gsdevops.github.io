@@ -1,9 +1,9 @@
-
-[https://gsdevops.github.io/](https://gsdevops.github.io/)
-
 ## Snippets:  
 * [bash snippets](docs/snippets/bash_snippets.md)   - general purpose snippets  
 * [aws cli](docs/snippets/aws/aws_clis.md) - aws cli examples   
+* [boto3](docs/snippets/aws/boto3_items.md) - boto3 examples   
+
+boto3_items
 * [uniques](docs/snippets/uniques/uniques.md) - specialized examples
 
 
