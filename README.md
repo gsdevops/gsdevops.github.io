@@ -1,10 +1,11 @@
 ## Snippets:  
 * [bash snippets](docs/snippets/bash_snippets.md)   - general purpose snippets  
-* [aws cli](docs/snippets/aws/aws_clis.md) - aws cli examples   
-* [boto3](docs/snippets/aws/boto3_items.md) - boto3 examples   
-
-boto3_items
 * [uniques](docs/snippets/uniques/uniques.md) - specialized examples
+
+## AWS 
+* [boto3](docs/snippets/aws/boto3_items.md) - boto3 examples   
+* [athena usage](docs/snippets/aws/athena.md) - boto3 examples   
+* [aws cli](docs/snippets/aws/aws_clis.md) - aws cli examples   
 
 
 # Docker and containers
