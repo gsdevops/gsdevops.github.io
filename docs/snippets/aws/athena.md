@@ -42,3 +42,4 @@ LOCATION 's3://your_log_bucket/prefix/AWSLogs/AWS_account_ID/elasticloadbalancin
  [https://medium.com/datamindedbe/connect-to-aws-athena-using-datagrip-c34762e37a17](https://medium.com/datamindedbe/connect-to-aws-athena-using-datagrip-c34762e37a17) - workstation setup  
 
 
+'yyyy-MM-DD''T''HH:mm:ss.SSSSSS''Z'
