@@ -1,22 +1,23 @@
 ## Snippets
-* [bash](docs/snippets/bash)   - general purpose snippets  
-* [aws](docs/snippets/aws/aws_clis.md) - aws cli examples   
-* [boto3](docs/snippets/aws/boto3_items.md) - boto3 examples   
+* [bash](docs/snippets/bash) - General purpose snippets  
+* [aws](docs/snippets/aws/aws_clis.md) - AWS CLI examples   
+* [boto3](docs/snippets/aws/boto3_items.md) - Boto3 examples   
 
 ## Specialized Examples
-* [uniques](docs/snippets/uniques/uniques.md) - specialized examples
+* [uniques](docs/snippets/uniques/uniques.md) - Specialized examples
 
 ## Docker and containers
-* [docker_single](docs/snippets/containers/docker_single.md) - Dockerfile and single container
-* [docker compose](docs/snippets/containers/docker_single.md) - docker compose 
+* [docker_single](docs/snippets/containers/docker_single.md) - Dockerfiles and single containers
+* [docker compose](docs/snippets/containers/docker_single.md) - Docker compose configuration
 
 ## Databases
-* [sql DBs](docs/snippets/databases/rdbs.md) - sql databases    
-* [Aerospike db](docs/snippets/databases/aerospike.md) - AE database  
-* [Mongo db](docs/snippets/databases/mongodb.md) - Mongo database  
+* [Relational](docs/snippets/databases/rdbs.md) - Relational databases    
+* [Aerospike](docs/snippets/databases/aerospike.md) - Aerospike databases
+* [MongoDB](docs/snippets/databases/mongodb.md) - Mongo databases
+* [Postgres](docs/snippets/databases/postgres.md) - Postgres databases
 
 ## Web Servers
-* [Nginx](docs/snippets/webservers/nginx.conf.md) - nginx web server    
+* [Nginx](docs/snippets/webservers/nginx.conf.md) - Nginx web server    
 * [Apache2](docs/snippets/webservers/apache_httpd.md) - Apache web server    
   
 ## Langs
@@ -24,4 +25,9 @@
 * [Ruby General](docs/snippets/langs/ruby_gen.md) - General ruby 
 
 ## Workstation
-* [Workstation](docs/workstation/devenv_setup.md) - workstation setup  
+* [Workstation](docs/workstation/devenv_setup.md) - Developer workstation setup  
+
+## Scripts
+* [AWS](scripts/aws) - Scripts for use on AWS servers
+* [Linux](scripts/linux) - Scripts for use on Linux distribution machines
+* [MongoDB](scripts/monogodb) - Scripts related to MongoDB
