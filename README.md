@@ -17,6 +17,7 @@
 * [sql DBs](docs/snippets/databases/rdbs.md) - sql databases    
 * [Aerospike db](docs/snippets/databases/aerospike.md) - AE database  
 * [Mongo db](docs/snippets/databases/mongodb.md) - Mongo database  
+* [Elasticsearch](docs/snippets/databases/elasticsearch.md) - Elasticsearch   
 
 ## Web Servers:  
 * [Nginx](docs/snippets/webservers/nginx.conf.md) - nginx web server    
