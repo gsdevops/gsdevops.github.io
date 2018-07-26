@@ -16,10 +16,10 @@ fi
 
 # Functions
 function test_status {
- if [ $1 -ge 1 ]; then
-   echo -e "ERROR: the last command was unsuccessful.\n"
-   exit 1
- fi
+    if [ $1 -ge 1 ]; then
+        echo -e "ERROR: the last command was unsuccessful.\n"
+        exit 1
+    fi
 }
 
 
@@ -38,7 +38,7 @@ echo -e "running ubuntu-${codename}\n##########"
 
 # Installation blocks
 echo -e "adding global environment variables\n##########"
-echo "LC_ALL=C" >> /etc/environment
+echo "LC_ALL=C" >> /etc/environment; test_status $?
 
 echo -e "creating mongo base dir\n##########"
 mkdir -p /mongo/{data,logs,keys}; test_status $?
@@ -98,3 +98,6 @@ WantedBy=multi-user.target
 EOF
 test_status $?
 fi
+
+
+exit 0

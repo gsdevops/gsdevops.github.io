@@ -9,17 +9,17 @@
 
 # Initial tests
 if [ "$EUID" -ne 0 ]; then
-  echo -e "\nERROR: run the script as root\n=========="
-  exit 1
+    echo -e "The script must be run as the Root user\n----------"
+    exit 1
 fi
 
 
 # Functions
 function test_status {
- if [ $1 -ge 1 ]; then
-   echo -e "ERROR: the last command was unsuccessful.\n"
-   exit 1
- fi
+    if [ $1 -ge 1 ]; then
+        echo -e "ERROR: the last command was unsuccessful.\n"
+        exit 1
+    fi
 }
 
 
