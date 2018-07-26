@@ -1,14 +1,14 @@
 ## Snippets
-* [bash](docs/snippets/bash) - General purpose snippets  
-* [aws](docs/snippets/aws/aws_clis.md) - AWS CLI examples   
-* [boto3](docs/snippets/aws/boto3_items.md) - Boto3 examples   
+* [Bash](docs/snippets/bash) - General purpose snippets  
+* [AWS](docs/snippets/aws/aws_clis.md) - AWS CLI examples   
+* [Boto3](docs/snippets/aws/boto3_items.md) - Boto3 examples   
 
 ## Specialized Examples
-* [uniques](docs/snippets/uniques/uniques.md) - Specialized examples
+* [Uniques](docs/snippets/uniques/uniques.md) - Specialized examples
 
 ## Docker and containers
-* [docker_single](docs/snippets/containers/docker_single.md) - Dockerfiles and single containers
-* [docker compose](docs/snippets/containers/docker_single.md) - Docker compose configuration
+* [Docker_Single](docs/snippets/containers/docker_single.md) - Dockerfiles and single containers
+* [Docker Compose](docs/snippets/containers/docker_single.md) - Docker compose configuration
 
 ## Databases
 * [Relational](docs/snippets/databases/rdbs.md) - Relational databases    
