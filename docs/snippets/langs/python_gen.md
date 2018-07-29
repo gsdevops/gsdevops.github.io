@@ -15,3 +15,14 @@ python --version
 # py.test
 ...
 
+# Usefull Links  
+
+[weblogs](https://www.artima.com/weblogs/viewpost.jsp?thread=240845) 
+ 
+[drastically-improve-your-python-understanding-pythons-execution-model](http://www.jeffknupp.com/blog/2013/02/14/drastically-improve-your-python-understanding-pythons-execution-model/)   
+
+[python classes](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)   
+
+[python magic methods](http://www.rafekettler.com/magicmethods.html#appendix1) 
+
+

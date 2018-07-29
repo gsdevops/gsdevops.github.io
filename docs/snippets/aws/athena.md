@@ -42,3 +42,30 @@ LOCATION 's3://your_log_bucket/prefix/AWSLogs/AWS_account_ID/elasticloadbalancin
  [https://medium.com/datamindedbe/connect-to-aws-athena-using-datagrip-c34762e37a17](https://medium.com/datamindedbe/connect-to-aws-athena-using-datagrip-c34762e37a17) - workstation setup  
 
 
+
+# Querying the data:  
+
+### for the jdbc connection use this jdbc url:
+
+`jdbc:awsathena://athena.THE_ATHENA_REGION.amazonaws.com:443/`  
+
+* more detailed instructions:  
+ [https://medium.com/datamindedbe/connect-to-aws-athena-using-datagrip-c34762e37a17](https://medium.com/datamindedbe/connect-to-aws-athena-using-datagrip-c34762e37a17) - workstation setup  
+
+
+### Parsing timestamps:
+ *  **the format is CASE SENSIITVE**      
+`parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS''Z''')` 
+
+* Query to calculate AVG/CNT grouped daily by verb and ret code:  
+```
+select   date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS''Z''')) as req_date,  request_verb, elb_response_code, avg(backend_processing_time) as avg_dur, count(*) as cnt  from elb_logs_2 where parse_datetime(request_timestamp, 'YYYY-MM-dd''T''HH:mm:ss.SSSSSS''Z''') >  date (now() - interval '6' day) group by  date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS''Z''')), request_verb , elb_response_code;
+```
+
+```
+select  request_verb,  date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS''Z''')) as req_date,  avg(backend_processing_time) as avg_dur, count(*) as cnt  from elb_logs_2 where parse_datetime(request_timestamp, 'YYYY-MM-dd''T''HH:mm:ss.SSSSSS''Z''') >  parse_datetime('2018-01-20T09:00:07.490349Z', 'YYYY-MM-dd''T''HH:mm:ss.SSSSSS''Z''') group by date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS''Z''')) ;
+```
+
+
+
+

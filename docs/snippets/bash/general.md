@@ -90,3 +90,9 @@ ntpd -gq
 service ntp start
 timedatectl
 ```
+
+
+# Shell execution detection
+Checking if a script is sourced or subshelled:  
+`[[$0!="$BASH_SOURCE"]]||(echo"This script should be sourced. use'source$0'";exit1)` 
+
