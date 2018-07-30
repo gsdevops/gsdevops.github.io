@@ -1,4 +1,11 @@
+
+## Devops high level:
+* [Concepts](docs/devops/devops_principles.md) - Core concepts  
+* [Ecosystem](docs/devops/devops_echsystems.md) - The Ecosystem  
+
+
 ## Snippets
+  
 * [Bash](docs/snippets/bash) - General purpose snippets  
 * [AWS](docs/snippets/aws/aws_clis.md) - AWS CLI examples   
 * [Boto3](docs/snippets/aws/boto3_items.md) - Boto3 examples   
