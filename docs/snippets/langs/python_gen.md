@@ -26,3 +26,6 @@ python --version
 [python magic methods](http://www.rafekettler.com/magicmethods.html#appendix1) 
 
 
+
+## Logging
+* logger hierarchy  **ADD_ME**
