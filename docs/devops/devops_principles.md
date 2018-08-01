@@ -29,4 +29,5 @@ e.g. after XX failed deployements - the first successful cleans all trash
 * Try and use the actual state when possible
 
 
+## Prepare all in advance and the "start"
 

@@ -96,3 +96,8 @@ timedatectl
 Checking if a script is sourced or subshelled:  
 `[[$0!="$BASH_SOURCE"]]||(echo"This script should be sourced. use'source$0'";exit1)` 
 
+# Find lines with non ascii chars:
+```shell 
+grep --color='auto' -P -n '[^\x00-\x7F]' FILENAME
+```
+
