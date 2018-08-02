@@ -1,13 +1,7 @@
-# Languages
+# Bash me - contents 
 
-* [python general](./python_gen.md)
-* [ruby general](./ruby_gen.md)
-
-TBD: 
-*  java
-    * maven
-    * gradle
-* scala
-    * sbt
-    
-
+* [functions](./functions.md)
+* [general](./general.md)
+* [shells](./shells.md)
+* [ssh](./ssh.md)
+* [users](./users.md)

@@ -1,9 +1,12 @@
-# WebServers - contents
+# Languages
 
-* [nginx](./ngionx.conf.md)
-* [Apache2 httpd](./apache_httpd.md)
-* Django / Flask
+* [python general](./python_gen.md)
+* [ruby general](./ruby_gen.md)
 
-
-
-
+TBD: 
+*  java
+    * maven
+    * gradle
+* scala
+    * sbt
+    
