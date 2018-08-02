@@ -1,9 +1,7 @@
-# WebServers - contents
+# Bash me - contents 
 
-* [nginx](./ngionx.conf.md)
-* [Apache2 httpd](./apache_httpd.md)
-* Django / Flask
-
-
-
-
+* [functions](./functions.md)
+* [general](./general.md)
+* [shells](./shells.md)
+* [ssh](./ssh.md)
+* [users](./users.md)
