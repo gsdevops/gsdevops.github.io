@@ -48,3 +48,14 @@
 [bash bible](http://ss64.com/bash/)  
 [crons](https://crontab.guru/)  
 [chmod calc](https://chmod-calculator.com/)  
+  
+
+  
+    
+      
+# hmmmmm...
+enjoy, have fun, send suggestions and use cautiously.
+
+
+
+
