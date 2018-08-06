@@ -26,6 +26,8 @@
 * [MongoDB](docs/snippets/databases/mongodb.md) - Mongo databases
 * [Postgres](docs/snippets/databases/postgres.md) - Postgres databases
 
+* [CI / CD](docs/snippets/ci/) - Teamcity, jenkins, ...      
+
 ## Web Servers
 * [Nginx](docs/snippets/webservers/nginx.conf.md) - Nginx web server    
 * [Apache2](docs/snippets/webservers/apache_httpd.md) - Apache web server    
