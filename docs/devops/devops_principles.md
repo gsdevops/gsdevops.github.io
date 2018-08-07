@@ -29,5 +29,14 @@ e.g. after XX failed deployements - the first successful cleans all trash
 * Try and use the actual state when possible
 
 
-## Prepare all in advance and the "start"
+## Prepare all in advance and then "start"
+try to pull as many of the potential errors to a "pre-deploy" step as the errors inside the deploy flow are harder to propagate
+
+
+## Monitoring:
+Meter as much as you can, without losing information.
+
+### Annomalies - track them
+* positive and negative anomalies
+ 
 
