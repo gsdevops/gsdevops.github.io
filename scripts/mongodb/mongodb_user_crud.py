@@ -135,9 +135,9 @@ def crud_user_credentials(env, srv_type, operation):
                     resp = mdb_mgr.create_user(new_user=user["name"], new_pass=user["pass"], roles=user["roles"])
                 elif operation == "delete":
                     resp = mdb_mgr.delete_user(curr_user=user["name"])
-                elif operation == "update_pass":
+                elif operation == "update-pass":
                     resp = mdb_mgr.update_pass(curr_user=user["name"], new_pass=user["pass"])
-                elif operation == "update_roles":
+                elif operation == "update-roles":
                     resp = mdb_mgr.update_roles(curr_user=user["name"], new_roles=user["roles"])
 
                 mdb_log.info("Host: %s user %s: %s" % (mdb_host["host"], operation, resp))
@@ -155,7 +155,7 @@ def get_parser():
     parser_main.add_argument("-t", "--srv-type", help="type of MongoDB server to operate on",
                              choices=["cfg", "rs", "all"])
     parser_main.add_argument("-o", "--oper", help="operation to perform on a user",
-                             choices=["create", "delete", "update_pass", "update_roles"])
+                             choices=["create", "delete", "update-pass", "update-roles"])
 
     return parser_main
 
