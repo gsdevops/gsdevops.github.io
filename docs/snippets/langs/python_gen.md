@@ -29,3 +29,21 @@ python --version
 
 ## Logging
 * logger hierarchy  **ADD_ME**
+
+
+
+## JINJA
+in order to avoid adding newline after every template closure:
+see here: [JINJA whitespace-control](http://jinja.pocoo.org/docs/2.10/templates/#whitespace-control)
+Without newlines  
+```jinja2
+{% for i in insts %}
+{{ "%s" % i['the_var'] }}
+{% endfor %}
+```  
+With newlines
+```jinja2
+{% for i in insts %}
+{{ "%s" % i['the_var'] }}
+{% endfor %}
+```

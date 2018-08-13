@@ -30,3 +30,6 @@ other_session = boto3.session.Session(region_name=region,
 
 ``` 
 
+
+# Zappa.io
+[zappa configuration](https://github.com/Miserlou/Zappa#advanced-settings)
