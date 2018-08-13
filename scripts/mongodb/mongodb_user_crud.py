@@ -11,6 +11,7 @@ __author__ = "Zaidan Sheabar"
 
 import argparse
 import logging
+import sys
 
 from pymongo import MongoClient
 from mdb_server_config import hosts
@@ -139,6 +140,9 @@ def crud_user_credentials(env, srv_type, operation):
                     resp = mdb_mgr.update_pass(curr_user=user["name"], new_pass=user["pass"])
                 elif operation == "update-roles":
                     resp = mdb_mgr.update_roles(curr_user=user["name"], new_roles=user["roles"])
+                else:
+                    mdb_log.error("Invalid operation.")
+                    sys.exit()
 
                 mdb_log.info("Host: %s user %s: %s" % (mdb_host["host"], operation, resp))
 
