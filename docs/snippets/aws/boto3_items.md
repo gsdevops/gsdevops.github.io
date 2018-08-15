@@ -3,6 +3,7 @@
 # Region selection
 ```python
 import boto3
+region='us-east-1'
 ssn = boto3.session.Session(region_name=region)
 ```
 
@@ -31,5 +32,6 @@ other_session = boto3.session.Session(region_name=region,
 ``` 
 
 
-# Zappa.io
+# Zappa.io  
+
 [zappa configuration](https://github.com/Miserlou/Zappa#advanced-settings)
