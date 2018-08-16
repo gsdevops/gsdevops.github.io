@@ -11,6 +11,15 @@ python --version
 ```
 
 
+# Multiline strings
+* textwrap.dedent()
+```python
+import textwrap
+print textwrap.dedent("""\
+    aaaa
+    aaaaa""")
+```
+
 
 # py.test
 ...
