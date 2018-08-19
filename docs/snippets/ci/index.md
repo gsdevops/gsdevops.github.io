@@ -20,3 +20,11 @@ If relevant:
 
 
 ### Artifact dependencies
+
+
+# Nexus:
+links:
+* [New nexus layout structure](https://cwiki.apache.org/confluence/display/MAVEN/Remote+repository+layout#Remoterepositorylayout-Repositoryartifactlayout)  
+
+
+
