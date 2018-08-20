@@ -82,3 +82,10 @@ FROM pg_catalog.pg_class c
 LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
 WHERE pg_catalog.array_to_string(c.relacl, E'\n') LIKE '%username%';
 ```
+
+
+## Meta data
+table stats:  
+```sql
+SELECT count(DISTINCT tablename )FROM PG_TABLE_DEF WHERE schemaname = 'public';
+```
