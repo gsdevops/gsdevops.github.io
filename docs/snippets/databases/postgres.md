@@ -76,6 +76,7 @@ SELECT n.nspname as "Schema",
     WHEN 'v' THEN 'view' 
     WHEN 'm' THEN 'materialized view' 
     WHEN 'S' THEN 'sequence' 
+    
     WHEN 'f' THEN 'foreign table' 
   END as "Type"
 FROM pg_catalog.pg_class c

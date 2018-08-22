@@ -92,6 +92,16 @@ timedatectl
 ```
 
 
+# Finding files (the `find` command):
+```bash
+# find files based on modification time 
+find ./* -type f -mtime +${days}
+
+# Find files with special owner
+find /home/ubuntu/.m2/ -user root
+
+```
+
 # Shell execution detection
 Checking if a script is sourced or subshelled:  
 `[[$0!="$BASH_SOURCE"]]||(echo"This script should be sourced. use'source$0'";exit1)` 
