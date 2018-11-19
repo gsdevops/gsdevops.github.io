@@ -19,6 +19,14 @@ long_var='test_archive.zip'
 short_var=${long_var%\.zip}
 ```
 
+# Get Current public IP address:  
+```bash
+CURRENT_IP = $(dig +short myip.opendns.com @resolver1.opendns.com)
+```
+- OR -
+```bash
+curl http://ifconfig.me
+```
 
 # Crontab
 Switching users
