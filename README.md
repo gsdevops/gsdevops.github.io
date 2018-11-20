@@ -25,6 +25,7 @@
 * [Aerospike](docs/snippets/databases/aerospike.md) - Aerospike databases
 * [MongoDB](docs/snippets/databases/mongodb.md) - Mongo databases
 * [Postgres](docs/snippets/databases/postgres.md) - Postgres databases
+* [Redis](docs/snippets/databases/redis.md) - Redis databases
 
 * [CI / CD](docs/snippets/ci/) - Teamcity, jenkins, ...      
 

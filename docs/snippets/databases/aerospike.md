@@ -13,4 +13,3 @@
 asadm -e collectinfo
 ```  
 
-just for testing
