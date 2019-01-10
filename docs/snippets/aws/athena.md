@@ -124,5 +124,8 @@ select  request_verb,  date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH
 ```
 
 
-
+### Listing buckets in use:
+```bash
+aws glue get-tables --database-name DB_NAME --region us-west-2 --query 'TableList[*].{Name:Name, Location:StorageDescriptor.Location}' --output text
+```
 

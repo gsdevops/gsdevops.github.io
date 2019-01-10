@@ -9,6 +9,7 @@
 * [Bash](docs/snippets/bash) - General purpose snippets
 
 ## AWS:    
+* [general OS](docs/snippets/aws/general_os.md) - General OS items
 * [cli](docs/snippets/aws/aws_clis.md) - AWS CLI examples   
 * [Athena](docs/snippets/aws/athena.md) - Athena examples   
 * [Boto3](docs/snippets/aws/boto3_items.md) - Boto3 examples   

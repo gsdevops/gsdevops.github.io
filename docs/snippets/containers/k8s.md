@@ -2,6 +2,19 @@
 
 
 
+# Kubectl:
+
+### List pods:
+```bash
+kubectl get pods 
+
+#  wide view
+kubectl get pods -o wide
+
+
+```
+
+
 kubectl run mongo-proxy --replicas=1 --labels="run=load-balancer-example" --image=eu.gcr.io/testing-211007/mongo/mongo-proxy:1.0.0  --port=27017
 
 

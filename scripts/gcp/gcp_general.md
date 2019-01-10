@@ -20,6 +20,15 @@ gcloud auth activate-service-account --key-file KEY_FILE_NAME.json
 
 kubectl config get-contexts
 
+### Get kubectl creds from GCP:
+```bash
+gcloud container clusters get-credentials
+```
+
+and auth the docker cli:
+```bash
+gcloud auth configure-docker
+```
 
 pip install --upgrade google-api-python-client
 
