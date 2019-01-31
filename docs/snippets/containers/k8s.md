@@ -3,6 +3,28 @@
 
 
 # Kubectl:
+### Configuration
+in the localized env you are working on (virtualenv or other) set the env variable 
+something like:
+```bash
+export KUBECONFIG="~/dev/projects/PRODJECT/kubernetes_conf/PROD_config.kube"
+```
+
+
+## EKS:
+ 
+####  Dashboard access (after installed )
+```bash
+kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')
+
+# take the token and
+kubectl proxy
+# and from the browser:
+# http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login 
+```
+
+
+
 
 ### List pods:
 ```bash
