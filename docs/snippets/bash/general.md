@@ -119,3 +119,11 @@ Checking if a script is sourced or subshelled:
 grep --color='auto' -P -n '[^\x00-\x7F]' FILENAME
 ```
 
+#Format
+```bash
+mkfs -t ext4 /dev/xvdb
+mkdir /mnt/EBS_MNT
+mount /dev/xvdb /mnt/EBS_MNT
+
+/dev/xvdb1  /mnt/EBS_MNT ext4   defaults,nofail        0       2
+```
