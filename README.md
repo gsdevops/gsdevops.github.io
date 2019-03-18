@@ -19,7 +19,7 @@
 
 ## Docker and containers
 * [Docker_Single](docs/snippets/containers/docker_single.md) - Dockerfiles and single containers
-* [Docker Compose](docs/snippets/containers/docker_single.md) - Docker compose configuration
+* [Docker Kubernetes](docs/snippets/containers/k8s.md) - k8s items
 
 ## Databases
 * [Relational](docs/snippets/databases/rdbs.md) - Relational databases    
