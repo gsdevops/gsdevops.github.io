@@ -4,6 +4,9 @@
 
 ## Teamcity
 
+### Kotlin DSL example:
+
+`https://teamcity.jetbrains.com/app/dsl-documentation/jetbrains.build-server.configs.kotlin.v2018_1/index.html`
 
 ### Agent
 
