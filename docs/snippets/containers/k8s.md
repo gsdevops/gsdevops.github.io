@@ -51,3 +51,7 @@ kubectl expose deployment  mongo-proxy --type=LoadBalancer --name=my-mongo-proxy
 
 
 kubectl set image deployment/mongo-proxy2 nginx=nginx:1.9.1 --record
+
+
+# K8S bookmarks
+* https://github.com/kubernetes/community/blob/master/contributors/design-proposals/scheduling/podaffinity.md#anti-affinity  
