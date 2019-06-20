@@ -43,7 +43,8 @@ kubectl get pods -o wide
 
 
 # EKS cluster autoscaler:
-Reference: https://eksworkshop.com/scaling/deploy_ca/  
+Reference: https://eksworkshop.com/scaling/deploy_ca/    
+https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md  
 
 in the sample autoscaler.yaml below it uses: PUT_SELECTION_TAG_HERE as a tag to add to all the ASGs that we want to autoscale.
 and then:
