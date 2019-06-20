@@ -52,8 +52,13 @@
 [bash bible](http://ss64.com/bash/)  
 [crons](https://crontab.guru/)  
 [chmod calc](https://chmod-calculator.com/)  
-  
 
+## AWSOME links
+helm:  [https://github.com/cdwv/awesome-helm](https://github.com/cdwv/awesome-helm)     
+python: [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)  
+docker: [https://github.com/veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker)
+shell: [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)  
+sysadmin: [https://github.com/n1trux/awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin)  
   
     
       
