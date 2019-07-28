@@ -122,7 +122,7 @@ select   date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS'
 ```
 select  request_verb,  date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS''Z''')) as req_date,  avg(backend_processing_time) as avg_dur, count(*) as cnt  from elb_logs_2 where parse_datetime(request_timestamp, 'YYYY-MM-dd''T''HH:mm:ss.SSSSSS''Z''') >  parse_datetime('2018-01-20T09:00:07.490349Z', 'YYYY-MM-dd''T''HH:mm:ss.SSSSSS''Z''') group by date(parse_datetime(request_timestamp, 'yyyy-MM-dd''T''HH:mm:ss.SSSSSS''Z''')) ;
 ```
-
+select url_extract_host(url) , count(1) from elb_logs where where parse_datetime(request_timestamp, 'YYYY-MM-dd''T''HH:mm:ss.SSSSSS''Z''') >  parse_datetime('2018-01-20T09:00:07.490349Z', 'YYYY-MM-dd''T''HH:mm:ss.SSSSSS''Z''') group by url_extract_host(url)  limit 10;
 
 ### Listing buckets in use:
 ```bash
