@@ -129,3 +129,4 @@ select url_extract_host(url) , count(1) from elb_logs where where parse_datetime
 aws glue get-tables --database-name DB_NAME --region us-west-2 --query 'TableList[*].{Name:Name, Location:StorageDescriptor.Location}' --output text
 ```
 
+## just testing nothing
